@@ -1,9 +1,12 @@
 import './App.css';
+import Gallery from './Atividade03/Gallery.js';
+import { Profile } from './Atividade03/Gallery.js'
 
 function App() {
   return (
     <>
-    <h1>Oieeeee!!!!!!!!</h1>
+      {/* <Gallery /> */}
+      <Profile />
     </>
   );
 }
