@@ -1,5 +1,5 @@
-import { getImageUrl } from "../utils";
-import { people } from "../data";
+import { getImageUrl } from "./utils";
+import { people } from "./data";
 
 export default function List() {
     const peoples = people.filter(person => person.profession);
