@@ -38,12 +38,11 @@ export default function Contador() {
             <p className="text-2xl border px-6 py-2 rounded">{total}</p>
 
             <div className="flex space-x-16">
-
                 <div className="flex flex-col items-center">
                     <img
                         src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png"
                         alt="Homem"
-                        className="w-20 h-20 mb-2"
+                        className="w-12 h-12 mb-2"
                     />
                     <div className="mt-2 text-xl">Homens</div>
                     <div className="flex space-x-2 mt-2">
@@ -57,7 +56,7 @@ export default function Contador() {
                     <img
                         src="https://cdn-icons-png.flaticon.com/512/1995/1995522.png"
                         alt="Mulher"
-                        className="w-20 h-20 mb-2"
+                        className="w-12 h-12 mb-2"
                     />
                     <div className="mt-2 text-xl">Mulheres</div>
                     <div className="flex space-x-2 mt-2">
