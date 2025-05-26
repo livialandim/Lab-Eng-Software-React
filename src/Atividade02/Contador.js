@@ -39,7 +39,7 @@ export default function Contador() {
 
             <div className="pessoas-container">
                 <div className="card">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Homem" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995522.png" alt="Homem" />
                     <div className="card-title">Homens</div>
                     <div className="botoes">
                         <button onClick={AdicionarH}>➕</button>
@@ -49,7 +49,7 @@ export default function Contador() {
                 </div>
 
                 <div className="card">
-                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995522.png" alt="Mulher" />
+                    <img src="https://cdn-icons-png.flaticon.com/512/1995/1995574.png" alt="Mulher" />
                     <div className="card-title">Mulheres</div>
                     <div className="botoes">
                         <button onClick={AdicionarM}>➕</button>
