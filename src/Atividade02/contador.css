@@ -1,0 +1,68 @@
+.contador {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.total-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.total-label {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.total-numero {
+  font-size: 24px;
+  padding: 8px 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  margin-top: 8px;
+}
+
+.pessoas-container {
+  display: flex;
+  gap: 60px;
+  margin-top: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.botoes {
+  display: flex;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.botoes button {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.contagem {
+  font-size: 18px;
+  padding: 6px 14px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  background-color: #f9f9f9;
+  border-radius: 6px;
+}
