@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import "./contador.css";
 
 export default function Contador() {
     const [homem, setHomem] = useState(0);
