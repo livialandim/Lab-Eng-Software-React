@@ -4,6 +4,7 @@ import Home from "./Home";
 import Atividade1 from "./Atividade01/Atividade1";
 import Atividade2 from "./Atividade02/Atividade2";
 import Atividade3 from "./Atividade03/Atividade3";
+import Atividade4 from "./Atividade04/Atividade4";
 
 export default function MinhasRotas() {
     return (
@@ -14,6 +15,7 @@ export default function MinhasRotas() {
                 <Route path = "/atividade1" element = {<Atividade1 />} />
                 <Route path = "/atividade2" element = {<Atividade2 />} />
                 <Route path = "/atividade3" element = {<Atividade3 />} />
+                <Route path = "/atividade4" element = {<Atividade4 />} />
             </Routes>
         </BrowserRouter>
     );
