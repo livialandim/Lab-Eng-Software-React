@@ -22,8 +22,12 @@ export default function Atividade5() {
             <Accordion />
 
             <h2>ContactList e Chat</h2>
-            <ContactList/>
-            <Chat />
+            <ContactList
+                contacts={contacts}
+                selectedContact={selectedContact}
+                onSelect={setSelectedContact}
+            />
+            <Chat contact={selectedContact} />
         </>
     );
 }

@@ -1,14 +1,24 @@
 import './App.css';
-import Gallery from './Atividade03/Gallery.js';
-import { Profile } from './Atividade03/Gallery.js'
+import Chat from './Atividade05/Chat.js';
+import ContactList from './Atividade05/ContactList.js'
 
-function App() {
+export default function Messenger() {
+  const [to, setTo] = useState(contacts[0]);
+
   return (
-    <>
-      {/* <Gallery /> */}
-      <Profile />
-    </>
+    <div>
+      <ContactList
+        contacts={contacts}
+        selectedContact={to}
+        onSelect={contact => setTo(contact)}
+      />
+      <Chat key={to.email} contact={to} />
+    </div>
   );
 }
 
-export default App;
+const contacts = [
+  { name: 'Taylor', email: 'taylor@email.com'},
+  { name: 'Alice', email: 'alice@email.com'},
+  { name: 'Bob', email: 'bob@email.com'}
+];
